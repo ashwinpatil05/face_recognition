@@ -49,7 +49,7 @@ for rect in rects:
 	cv2.imwrite("foo/" + f + ".png", faceAligned)
 
 	# display the output images
-	cv2.imwrite("/Users/davischum/Downloads/aligned/" + s_name + ".png", faceAligned)
-	#cv2.imshow("Original", faceOrig)
-	#cv2.imshow("Aligned", faceAligned)
-	#cv2.waitKey(0)
+	#cv2.imwrite("/Users/davischum/Downloads/aligned/" + s_name + ".png", faceAligned)
+	cv2.imshow("Original", faceOrig)
+	cv2.imshow("Aligned", faceAligned)
+	cv2.waitKey(0)
